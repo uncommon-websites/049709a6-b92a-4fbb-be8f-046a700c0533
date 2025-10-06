@@ -87,5 +87,14 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Your website launch is closer than you think"
+	subtitle="Let's talk about your project"
+	description="Stop waiting on development teams. Our Webflow and Framer specialists deliver production-ready websites in days, with documented migration paths and modular architectures that keep you in control. No vendor lock-in, no compromises."
+	imageSrc="/generated/image-a-cheerful-marketing-director-celebratin.webp"
+	callsToAction={[
+		{ href: "/contact", label: "Start your project", variant: "primary" },
+		{ href: "/work", label: "See our process", variant: "secondary" }
+	]}
+/>

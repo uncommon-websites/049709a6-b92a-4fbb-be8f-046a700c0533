@@ -1,6 +1,6 @@
 <!--
 @component AboutTeaser
-A minimalist teaser for the about page.
+A minimalist teaser for the about page featuring the founder's story.
 -->
 <script lang="ts">
 	// Types
@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Jordan Chen",
+		role: "Founder & Creative Director",
+		image: "/generated/image-a-professional-founder-in-a-modern-desig.webp"
 	};
 </script>
 
@@ -32,11 +32,11 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"After watching too many great startups stall for months waiting on website launches, I knew there had to be a better way. We built this agency to prove that speed and quality aren't mutually exclusive when you truly master your tools."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
-			<div class="grid items-center gap-8 dark:border-gray-800">
+			<div class="grid items-center gap-8">
 				<div class="flex items-center justify-start gap-4">
 					<img
 						src={teamMember.image}
@@ -45,9 +45,9 @@ A minimalist teaser for the about page.
 					/>
 					<div>
 						<div class="text-callout">{teamMember.name}</div>
-						<div class="text-caption text-emphasis-low">{teamMember.role}</div>
+						<div class="text-caption text-muted-foreground">{teamMember.role}</div>
 					</div>
-					<Button href="/about" variant="secondary" size="sm" class="ml-8">Read more</Button>
+					<Button href="/about" variant="secondary" size="sm" class="ml-8">Read our story</Button>
 				</div>
 			</div>
 		</div>
