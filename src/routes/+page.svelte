@@ -10,12 +10,24 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
+	title="Your startup website, live in days not months"
+	subtitle="We specialize exclusively in Webflow and Framer, delivering professional websites for venture-backed startups without the engineering overhead or custom development costs."
+	imageSrc="/generated/image-a-confident-marketing-leader-in-a-modern.webp"
+	callsToAction={[
+		{ href: "/work", label: "View our work" },
+		{ href: "/contact", label: "Start your project" }
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by forward-thinking companies"
+	logoUrls={[
+		'https://cdn.brandfetch.io/notion.so/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/loom.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/linear.app/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/vercel.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
